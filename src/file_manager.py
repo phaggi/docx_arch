@@ -19,12 +19,14 @@ class Payload:
 
 
 class TargetDocx:
-    def __init__(self, docx_filename: pathlib.Path or str, work_dir, template=None, payload=None):
+    def __init__(self, docx_filename: pathlib.Path, work_dir: pathlib.Path, template=None, payload=None):
         self.current_filename = None
         if template is None:
             self.template: pathlib.Path = Path.cwd() / 'templates/temp.zip'
         self.new_filename = None
         self.status = None
+        if not work_dir.exists():
+            work_dir.mkdir()
         self.work_dir = work_dir
         self.docx_filename: pathlib.Path = self.work_dir / docx_filename
         self.temp_arch_filename: pathlib.Path = self.work_dir / 'temp.zip'
