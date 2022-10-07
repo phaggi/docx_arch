@@ -1,4 +1,4 @@
-# docx_arch v.0.1.0-beta
+# docx_arch v.0.2.0
 
 Utility for add payload into docx file for send it throw mail. 
 
