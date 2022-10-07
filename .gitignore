@@ -1,3 +1,4 @@
 /pandas-dep/
 /.idea/
 /venv/
+/knimedb/
