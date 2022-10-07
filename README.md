@@ -12,7 +12,7 @@ Utility for add payload into docx file for send it throw mail.
 
 ## Usage
 
-1. Prepair payload file with size < 10 MB.
+1. Prepare payload file with size < 10 MB.
 2. Make dir for payload and put them into.
 3. Set name of dir with payload as 'my_path' at 'main.py'.
 4. Set payload file name as 'payload_source' name at 'main.py'.
@@ -21,7 +21,7 @@ Utility for add payload into docx file for send it throw mail.
 
 ## Related Projects
 
-I dont know.
+I don't know.
 
 ## Credits
 
